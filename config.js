@@ -6,7 +6,7 @@
 module.exports = {
     botName: process.env.BOT_NAME || 'SUKUNA MD',
     version: '3.0.0',
-    prefix: process.env.PREFIX || '.',
+    prefix: process.env.PREFIX || ',',
 
     // ============================================
     // ASSETS
@@ -19,7 +19,7 @@ module.exports = {
     // ============================================
     // BOT OWNER INFO
     // ============================================
-    ownerNumber: process.env.OWNER_NUMBER || '',
+    ownerNumber: process.env.OWNER_NUMBER || '27687394237',
     pairNumber:  process.env.PAIR_NUMBER  || '',
     // Pasqua Baileys supports a custom 8-character pairing code.
     pairingCode: process.env.PAIRING_CODE || 'PASQUAMD',
