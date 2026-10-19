@@ -34,7 +34,7 @@ module.exports = {
     // • If empty  → bot falls back to the normal 8-char pairing-code flow.
     // Use ONE flow at a time — don't try to set both.
     // ============================================
-    sessionId: process.env.SESSION_ID || 'Pasqua~6bFRqxgQ55nknMVK',
+    sessionId: process.env.SESSION_ID || '',
 
     owner: {
         name:     process.env.OWNER_NAME || 'PASQUA',
